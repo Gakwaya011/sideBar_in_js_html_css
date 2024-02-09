@@ -1,0 +1,99 @@
+* {
+
+    font-family: sans-serif;
+    color: #7e7c7c;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #bdd0d3;
+    display: flex;
+}
+
+.sideBar {
+    background: white;
+    width: 250px;
+    height: 100vh;
+    padding: 10px;
+    position: relative;
+    padding-top: 60px;
+    display: none;
+
+
+
+
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    background: #67a9ec;
+    color: white;
+    padding: 9px;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+
+.links .link {
+    background: none;
+    display: block;
+    /* block element is used to display element as block means that  the element next to it will be displayed on the new line*/
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px auto;
+    transition: all 2s;
+    border-radius: 50px 100px 10px 100px;
+
+
+
+
+}
+
+.links .link:hover {
+    background: #67a9ec;
+    color: white;
+    transition: background-color 1s;
+}
+
+.links .link:hover .fa {
+
+    color: white;
+}
+
+.links .link.active {
+    background-color: rgb(203, 98, 98);
+    color: white;
+    border-radius: 100px;
+    text-align: center;
+
+
+}
+
+.links .link.active .fa {
+
+    color: white;
+
+
+}
+
+.main h3 {
+    background: white;
+    padding: 18px;
+
+}
+
+.main {
+    width: 100%;
+    text-align: ;
+}
+
+.icon {
+    padding: 12px;
+}
